@@ -8,10 +8,11 @@ h1{
 .orange-color{
 color: rgb(250, 176, 37);
 }
-section{
+.felxible-container{
     display: flex;
 }
 .half-width{
+    
     width: 50%;
     padding-left: 6%;
 }
@@ -23,4 +24,15 @@ section{
     background-image:linear-gradient(orange,tomato);
     font-weight: 700;
     color: white;
+}
+.main{
+   background-color: orchid;
+   margin-right: 5%;
+}
+.second{
+   background-color: royalblue;
+   margin-right: 5%; 
+}
+.third{
+    background-color: salmon;
 }
